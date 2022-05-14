@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
+
+.wrapper{
+    background-color: #e8e8e8;
+    width: 80%;
+    margin: 10px auto;
+    min-height: 90vh;
+    border-radius: 5%;
+}
+
+h1{
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.container{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid cornflowerblue;
+}
+
+input{
+    width: 40%;
+    height: 30px;
+    border: 1px solid cornflowerblue;
+    text-align: center;
+}
+
+button{
+    width: 15%;
+    height: 30px;
+    border: 1px solid cornflowerblue;
+    background-color: white;
+}
+
+button:hover{
+    font-weight: bold;
+}
+
+button:active{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.block{
+    width: 50%;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid cornflowerblue;
+    background-color: white;
+    margin: 10px auto;
+    transition: all ease 500ms;
+}
+
+.active{
+    background-color: cornflowerblue;
+    color: white;
+    transition: all ease 500ms;
+}
+
+.btnDel{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
