@@ -41,16 +41,19 @@ button{
     background-color: white;
 }
 
-button:hover{
+.add:hover{
     font-weight: bold;
 }
 
-button:active{
+.add:active{
     background-color: cornflowerblue;
     color: white;
 }
 
 .block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 50%;
     height: 60px;
     font-size: 30px;
@@ -67,8 +70,15 @@ button:active{
     transition: all ease 500ms;
 }
 
-.btnDel{
+.remove{
     width: 30px;
     height: 30px;
     background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.remove:active{
+    background-color: white;
+    color: red;
 }
